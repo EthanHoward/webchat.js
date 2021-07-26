@@ -1,0 +1,12 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "JS and HTML webchat which runs on NODE.JS and any webserver",
+  "main": "chatserver.js",
+  "scripts": {
+    "cserver": "node chatserver.js",
+    "clib": "node chatlib.js"
+  },
+  "author": "Ethan Howard",
+  "license": "ISC"
+}
