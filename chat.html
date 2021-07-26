@@ -1,0 +1,5 @@
+<script>
+const chatlib = require("chatlib.js")
+var ws = new WebSocket('ws://localhost:8000');
+ws.onmessage = chatlib.parse(e)
+</script>
